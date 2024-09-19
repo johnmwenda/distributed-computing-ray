@@ -24,8 +24,6 @@ h2==4.1.0
 hpack==4.0.0
 hyperframe==6.0.1
 idna==3.7
-ipykernel==6.29.5
-ipython==8.26.0
 jedi==0.19.1
 jmespath==1.0.1
 jsonschema==4.21.1
