@@ -1,0 +1,3 @@
+-c ../requirements-anyscale.txt
+-e file:../../deus_lib
+-e file:../themis

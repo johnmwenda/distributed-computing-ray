@@ -1,0 +1,2 @@
+[console_scripts]
+sermon_finder = sermon_finder:sermon_finder

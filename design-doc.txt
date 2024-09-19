@@ -1,0 +1,18 @@
+Have threaded actors 4 - I will have a 4 core AWS EC2 instance
+- first phase, fetch all links and store them in a JSON blob in basedir
+- how to handle exceptions? 
+    -> what happens when an exception occurs how do you handle it in ray
+
+- second phase, use asyncio to initiate downloads
+    -> research - is it possible to use threaded AsyncIO 
+    -> Actor pool of async 
+
+
+
+
+TODO:
+Create a python package, with necessary requirements
+Scheduler - that accesses Python package
+
+-- Continue checking out accessing S3 from Ray worker
+https://github.com/ray-project/ray/blob/master/python/ray/autoscaler/aws/example-full.yaml

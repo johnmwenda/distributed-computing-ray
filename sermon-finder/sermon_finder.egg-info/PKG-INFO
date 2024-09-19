@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sermon-finder
+Version: 0.1.0
+Summary: A python package to aggregate sermons and create a searchable catalog
+Requires-Dist: click>=8.0.0
+Requires-Dist: typer>=0.9.0
+Provides-Extra: tests
+Requires-Dist: pytest>=6.0.1; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: ipython>=8.14.0; extra == "dev"
+Requires-Dist: pre-commit>=3.3.0; extra == "dev"
+Requires-Dist: jupyterlab>=4.0.0; extra == "dev"
+Requires-Dist: notebook>=6.5.4; extra == "dev"
+Requires-Dist: typer[all]>=0.9.0; extra == "dev"

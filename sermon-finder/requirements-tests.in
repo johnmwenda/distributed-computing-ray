@@ -1,0 +1,3 @@
+-c ../requirements-anyscale.txt
+-r requirements.txt
+-e file:.[tests]
