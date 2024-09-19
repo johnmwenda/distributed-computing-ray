@@ -163,6 +163,7 @@ setup_commands:
     - git clone https://github.com/johnmwenda/distributed-computing-ray.git
     - cd ~/distributed-computing-ray
     - pip install -r ~/distributed-computing-ray/requirements.txt
+    - pip install ~/distributed-computing-ray/sermon-finder
     # Note: if you're developing Ray, you probably want to create a Docker image that
     # has your Ray repo pre-cloned. Then, you can replace the pip installs
     # below with a git checkout <your_sha> (and possibly a recompile).
